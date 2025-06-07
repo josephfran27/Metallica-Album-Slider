@@ -1,0 +1,35 @@
+body {
+    background: #6e0909;
+    background: radial-gradient(circle, rgba(110, 9, 9, 1) 0%, rgba(23, 4, 4, 1) 89%);
+}
+
+.header {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(137, 30, 30);
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.container {
+    margin: 100px 0 0 225px;
+    display: flex;
+    width: 70%;
+    height: 450px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: solid white 1px;
+    transition: all ease-in-out 0.4s;
+}
+
+.container img:hover {
+    width: 45%;
+}
