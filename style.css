@@ -64,9 +64,15 @@ body {
 .footer {
     text-align: center;
     color: rgb(137, 30, 30);
-    font-weight: 900;
-    font-size: 45px;
-    opacity: 1;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.info {
+    text-align: center;
+    color: rgb(137, 30, 30);
+    font-weight: 700;
+    font-size: 20px;
 }
 
 
